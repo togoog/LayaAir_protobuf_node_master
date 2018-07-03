@@ -1,0 +1,17 @@
+{
+  "name": "test_svr",
+  "version": "1.0.0",
+  "description": "测试服务",
+  "main": "test_app.js",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "protobufjs": "^6.7.0",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alpha",
+  "license": "ISC"
+}

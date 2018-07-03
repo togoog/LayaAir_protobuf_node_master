@@ -1,0 +1,14 @@
+package awesomepackage;
+syntax = "proto3";
+
+
+
+message AwesomeMessage {
+    required string awesomeField = 1; // becomes awesomeField
+    required int32 age = 2;
+    message peopleMsg {
+        string name = 1;
+        int32 age = 2;
+    }
+    required peopleMsg people = 3;
+}
